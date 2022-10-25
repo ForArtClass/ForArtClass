@@ -337,3 +337,13 @@ function clickPower(power) {
       break;
     case "power7":
       total = total + 100;
+          showNumbers.innerHTML = total;
+      break;
+    case "power8":
+      total = total + 50000;
+      showNumbers.innerHTML = total;
+      break;
+    default:
+      return;
+  }
+}
